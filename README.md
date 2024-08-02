@@ -25,3 +25,5 @@ chmod +x setup_zsh.sh && chmod +x setup_plugins.sh
 ```bash
 ./setup_plugins.sh
 ```
+
+* Reinicie a sessão e pronto.
