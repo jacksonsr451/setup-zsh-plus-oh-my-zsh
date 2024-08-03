@@ -13,6 +13,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Definir o Zsh como o shell padrão
 chsh -s $(which zsh)
 
+# Clonar o repositório do tema Powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+
+# Configurar o Powerlevel10k no .zshrc
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
 # Atualizar pacotes novamente
 sudo apt update
 
@@ -30,10 +36,3 @@ mv /tmp/MesloLGS_NF_Regular.ttf ~/.local/share/fonts/
 
 # Atualizar o cache de fontes
 fc-cache -fv
-
-# Clonar o repositório do tema Powerlevel10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-
-# Configurar o Powerlevel10k no .zshrc
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
-

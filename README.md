@@ -13,7 +13,7 @@ git clone git@github.com:jacksonsr451/setup-zsh-plus-oh-my-zsh.git
 * Para dar permissão aos arquivos
 
 ```bash
-chmod +x setup_zsh.sh && chmod +x setup_plugins.sh
+chmod +x setup_zsh.sh && chmod +x setup_plugins.sh 
 ```
 
 * Rode primeiro o arquivo de setup para o zsh 
